@@ -1,0 +1,19 @@
+Fri Dec 15 17:52:25 MSK 2023->wrong password or logincom.teachmeskills.mycourse.validation.CredValidate.logInValidation(CredValidate.java:23)
+com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:15)
+com.teachmeskills.mycourse.Runner.main(Runner.java:7)
+Fri Dec 15 17:54:54 MSK 2023->wrong password or login
+com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
+com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
+com.teachmeskills.mycourse.Runner.main(Runner.java:7)
+Fri Dec 15 17:55:45 MSK 2023->wrong password or login
+com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
+com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
+com.teachmeskills.mycourse.Runner.main(Runner.java:7)
+Fri Dec 15 17:58:17 MSK 2023->wrong password or login
+com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
+com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
+com.teachmeskills.mycourse.Runner.main(Runner.java:7)
+Fri Dec 15 18:00:05 MSK 2023->wrong password or login
+com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
+com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
+com.teachmeskills.mycourse.Runner.main(Runner.java:7)

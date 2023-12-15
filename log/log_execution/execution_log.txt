@@ -1,0 +1,16 @@
+Fri Dec 15 17:52:25 MSK 2023->start sig in
+Fri Dec 15 17:52:25 MSK 2023->end sif in
+Fri Dec 15 17:54:54 MSK 2023->start sig in
+Fri Dec 15 17:54:54 MSK 2023->end sif in
+Fri Dec 15 17:55:45 MSK 2023->start sig in
+Fri Dec 15 17:55:45 MSK 2023->end sif in
+Fri Dec 15 17:58:17 MSK 2023->start sig in
+Fri Dec 15 17:58:17 MSK 2023->end sif in
+Fri Dec 15 18:00:05 MSK 2023->start sig in
+Fri Dec 15 18:00:05 MSK 2023->end sif in
+Fri Dec 15 18:03:55 MSK 2023->start sig in
+Fri Dec 15 18:03:55 MSK 2023->success sig in
+Fri Dec 15 18:03:55 MSK 2023->end sif in
+Fri Dec 15 18:04:08 MSK 2023->start sig in
+Fri Dec 15 18:04:08 MSK 2023->success sig in
+Fri Dec 15 18:04:08 MSK 2023->end sif in
