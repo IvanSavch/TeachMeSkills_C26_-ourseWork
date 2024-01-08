@@ -16,7 +16,7 @@ public class CredValidate {
             throw new CheckPasswordException("wrong password or login");
         }
     }
-    public static void sigInValidation(String login)throws CheckLoginException {
+    public static void loginValidation(String login)throws CheckLoginException {
         if (login.contains(" ")) {
             throw new CheckLoginException("wrong password or login");
         }

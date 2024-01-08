@@ -1,19 +1,145 @@
-Fri Dec 15 17:52:25 MSK 2023->wrong password or logincom.teachmeskills.mycourse.validation.CredValidate.logInValidation(CredValidate.java:23)
-com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:15)
-com.teachmeskills.mycourse.Runner.main(Runner.java:7)
-Fri Dec 15 17:54:54 MSK 2023->wrong password or login
-com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
-com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
-com.teachmeskills.mycourse.Runner.main(Runner.java:7)
-Fri Dec 15 17:55:45 MSK 2023->wrong password or login
-com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
-com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
-com.teachmeskills.mycourse.Runner.main(Runner.java:7)
-Fri Dec 15 17:58:17 MSK 2023->wrong password or login
-com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
-com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
-com.teachmeskills.mycourse.Runner.main(Runner.java:7)
-Fri Dec 15 18:00:05 MSK 2023->wrong password or login
-com.teachmeskills.mycourse.validation.CredValidate.passwordValidation(CredValidate.java:10)
-com.teachmeskills.mycourse.service.SigInService.sigIn(SigInService.java:16)
-com.teachmeskills.mycourse.Runner.main(Runner.java:7)
+Sun Jan 07 23:46:43 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:22)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:46:43 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:22)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:46:43 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:22)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:46:43 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:22)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:46:43 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:22)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:59:42 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:23)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:59:42 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:23)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:59:42 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:23)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:59:42 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:23)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Sun Jan 07 23:59:42 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:23)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:04:59 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:23)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:07:36 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:07:36 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:07:36 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:07:36 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:07:36 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:10:06 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:10:33 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:12:25 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:13:30 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:13:30 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:13:30 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:13:30 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:13:30 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:17:26 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:17:26 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:17:26 MSK 2024->invalid year
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:12)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:17:26 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)
+Mon Jan 08 00:17:26 MSK 2024->invalid financial document name
+com.teachmeskills.mycourse.validation.FileValidation.fileValidate(FileValidation.java:18)
+com.teachmeskills.mycourse.controller.pars_document.FileParser.filePars(FileParser.java:24)
+com.teachmeskills.mycourse.service.SigInService.pathFile(SigInService.java:28)
+com.teachmeskills.mycourse.Runner.main(Runner.java:8)

@@ -1,10 +1,12 @@
 package com.teachmeskills.mycourse.service;
 
+import com.teachmeskills.mycourse.controller.pars_document.FileParser;
 import com.teachmeskills.mycourse.exception.CheckLoginException;
 import com.teachmeskills.mycourse.exception.CheckPasswordException;
 import com.teachmeskills.mycourse.logger.Logger;
 import com.teachmeskills.mycourse.validation.CredValidate;
 
+import java.io.File;
 import java.util.Date;
 
 public class SigInService {
@@ -12,7 +14,7 @@ public class SigInService {
         Logger.logExecutionInfo(new Date(),"start sig in\n");
         boolean isSigIn = false;
         try {
-            CredValidate.sigInValidation(login);
+            CredValidate.loginValidation(login);
             CredValidate.passwordValidation(password);
             isSigIn = true;
             Logger.logExecutionInfo(new Date(),"success sig in\n" );
@@ -21,5 +23,8 @@ public class SigInService {
         }
         Logger.logExecutionInfo(new Date(),"end sif in\n");
         return isSigIn;
+    }
+    public static void pathFile(String path) {
+        FileParser.filePars(new File(path));
     }
 }
