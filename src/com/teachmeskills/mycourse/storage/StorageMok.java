@@ -1,8 +1,10 @@
 package com.teachmeskills.mycourse.storage;
 
 public class StorageMok {
-    private final String password = "knga2gaodeaXZhbl9hcnRodXI=";
-    private final String login = "dfgy7582encm9vdDE=";
+
+    private final String login = "txw66guwgwaXZhbl9hcnRodXI=";
+    private final String password = "r61mrbhg4zcm9vdDE=";
+
 
     public String getLogin() {
         return login;

@@ -15,7 +15,7 @@ public class CredValidate {
         if (password.contains(" ")) {
             throw new CheckPasswordException("wrong password or login");
         }
-        if (!(password.equals(Coder.deCoder(storageMok.getPassword())))){
+        if (!password.equals(Coder.deCoder(storageMok.getPassword()))){
             throw new CheckPasswordException("wrong password or login");
         }
     }

@@ -1,4 +1,6 @@
-package com.teachmeskills.mycourse.model;
+package com.teachmeskills.mycourse.document;
+
+import com.teachmeskills.mycourse.exception.NullSummaryException;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class InvoiceDocument {
-    public static double statsInvoice(List<File> files) {
+    public static double statsInvoice(List<File> files) throws NullSummaryException {
         double amount = 0;
         String strAmount = "";
         for (File file : files) {
@@ -18,7 +20,7 @@ public class InvoiceDocument {
                     BufferedReader reader = new BufferedReader(new FileReader(file));
                     String line;
                     while ((line = reader.readLine()) != null) {
-                        if (line.toLowerCase().contains("total")) {
+                        if (line.toLowerCase().contains("total") || line.toLowerCase().contains("$")) {
                             Pattern pattern = Pattern.compile("([1-9][0-9]*)+(.[0-9]+})?");
                             Matcher matcher = pattern.matcher(line);
                             while (matcher.find()) {
@@ -27,6 +29,8 @@ public class InvoiceDocument {
                             if (strAmount.contains(",")) {
                                 strAmount = strAmount.replace(",", "");
                             }
+                        }else {
+                            throw new NullSummaryException("[WARING] Not found sum in document");
                         }
                     }
                     //добавить ислюченик если сумма не указана

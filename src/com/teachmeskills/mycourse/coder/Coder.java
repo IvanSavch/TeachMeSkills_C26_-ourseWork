@@ -12,8 +12,7 @@ public class Coder {
     }
     public static String deCoder(String cred) {
         byte[] bytes =  Base64.getDecoder().decode(cred.substring(10));
-        String deCode = new String(bytes);
-        return deCode;
+        return new String(bytes);
     }
     private static String addSalt(String coderCred) {
         String symbols = "qwertyuiopasdfghjklzxcvbnm1234567890";

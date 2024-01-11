@@ -32,7 +32,6 @@ public class FileParser {
                         fileList.add(file1);
                     } catch (FileYearException | CheckKeyWordException | FileFormatException e) {
                         Logger.LogErrorInfo(new Date(), e.getMessage(), e);
-                        moveFile(file1.getName());
                         // написать запись невалидных данных в файл
                     }
                 }
@@ -44,18 +43,5 @@ public class FileParser {
             throw new CheckNullSession("[ERROR] session is null");
         }
         return null;
-    }
-    private static void moveFile(String fileName) {
-        Path result = null;
-        try {
-            result =  Files.move(Paths.get(INPUT_FOLDER + fileName), Paths.get(OUTPUT_FOLDER + fileName));
-        } catch (IOException e) {
-            System.out.println("Exception while moving file: " + e.getMessage());
-        }
-        if(result != null) {
-            System.out.println("File moved successfully.");
-        }else{
-            System.out.println("File movement failed.");
-        }
     }
 }
