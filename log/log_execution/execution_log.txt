@@ -1,11 +1,36 @@
-Thu Jan 11 23:19:09 MSK 2024->start sig in
-Thu Jan 11 23:19:09 MSK 2024->end sig in
-Thu Jan 11 23:19:10 MSK 2024->[WARING] Not found sum in documentThu Jan 11 23:21:47 MSK 2024->start sig in
-Thu Jan 11 23:22:04 MSK 2024->start sig in
-Thu Jan 11 23:25:07 MSK 2024->start sig in
-Thu Jan 11 23:27:43 MSK 2024->start sig in
-Thu Jan 11 23:34:19 MSK 2024->start sig in
-Thu Jan 11 23:36:49 MSK 2024->start sig in
-Thu Jan 11 23:49:57 MSK 2024->start sig in
-Thu Jan 11 23:52:54 MSK 2024->start sig in
-Thu Jan 11 23:53:16 MSK 2024->start sig in
+
+Fri Jan 12 00:58:39 MSK 2024 -> start sig in
+
+Fri Jan 12 00:58:39 MSK 2024 -> success sig in
+
+Fri Jan 12 00:58:39 MSK 2024 -> end sig in
+
+Fri Jan 12 00:58:39 MSK 2024 -> [INFO Statistic accesses]
+Fri Jan 12 00:59:30 MSK 2024 -> start sig in
+
+Fri Jan 12 00:59:30 MSK 2024 -> success sig in
+
+Fri Jan 12 00:59:30 MSK 2024 -> end sig in
+
+Fri Jan 12 01:03:50 MSK 2024 -> [INFO Statistic accesses]
+Fri Jan 12 01:08:23 MSK 2024 -> start sig in
+
+Fri Jan 12 01:08:23 MSK 2024 -> success sig in
+
+Fri Jan 12 01:08:23 MSK 2024 -> end sig in
+
+Fri Jan 12 01:16:25 MSK 2024 -> [INFO Statistic accesses]
+Fri Jan 12 01:17:28 MSK 2024 -> start sig in
+
+Fri Jan 12 01:17:28 MSK 2024 -> success sig in
+
+Fri Jan 12 01:17:28 MSK 2024 -> end sig in
+
+Fri Jan 12 01:19:31 MSK 2024 -> [INFO Statistic accesses]
+Fri Jan 12 01:20:58 MSK 2024 -> start sig in
+
+Fri Jan 12 01:20:58 MSK 2024 -> success sig in
+
+Fri Jan 12 01:20:58 MSK 2024 -> end sig in
+
+Fri Jan 12 01:22:40 MSK 2024 -> [INFO] session is death

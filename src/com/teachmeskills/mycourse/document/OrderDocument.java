@@ -31,14 +31,12 @@ public class OrderDocument {
                             if (strAmount.contains(",")) {
                                 strAmount = strAmount.replace(",", "");
                             }
-                        }else {
-                            throw new NullSummaryException("[WARING] Not found sum in document");
                         }
                     }
                     //добавить ислюченик если сумма не указана
                     amount = amount + Double.parseDouble(strAmount);
                 } catch (IOException e) {
-                    Logger.LogErrorInfo(new Date(), e.getMessage(), e);
+                    Logger.logErrorInfo(new Date(), e.getMessage(), e);
                 }
             }
         }

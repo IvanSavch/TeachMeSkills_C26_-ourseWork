@@ -16,32 +16,24 @@ import java.util.Date;
 import java.util.List;
 
 public class FileParser {
-    private static final String INVALID_DOCUMENT = "C:\\Users\\Savva\\IdeaProjects\\TeachMeSkills_C26_CourseWork\\log\\invalid_documents\\invalid_document.txt";
-    private static final String INVALID_DOCUMENT_PATH = "D:\\orders\\invalidOrders";
+
     private static String INPUT_FOLDER = "D:\\orders\\orders";
     private static String OUTPUT_FOLDER = "D:\\orders\\invalidOrders";
 
-    public static List<File> filePars(File file, Session session) throws CheckNullSession {
-        if (session != null) {
-            if (session.isSessionAlive()) {
+    public static List<File> filePars(File file) throws CheckNullSession {
+
                 File[] files = file.listFiles();
                 List<File> fileList = new ArrayList<>();
-                for (File file1 : files) {
+                for (File fileDoc : files) {
                     try {
-                        FileValidation.fileValidate(file1);
-                        fileList.add(file1);
+                        FileValidation.fileValidate(fileDoc);
+                        fileList.add(fileDoc);
                     } catch (FileYearException | CheckKeyWordException | FileFormatException e) {
-                        Logger.LogErrorInfo(new Date(), e.getMessage(), e);
+                        Logger.logInvalidDocument(new Date(), fileDoc.getName(),e.getMessage());
                         // написать запись невалидных данных в файл
                     }
                 }
                 return fileList;
-            } else {
-                Logger.logExecutionInfo(new Date(),"[INFO] session is death");
             }
-        } else {
-            throw new CheckNullSession("[ERROR] session is null");
-        }
-        return null;
     }
-}
+

@@ -1,11 +1,13 @@
 package com.teachmeskills.mycourse.document;
 
 import com.teachmeskills.mycourse.exception.NullSummaryException;
+import com.teachmeskills.mycourse.logger.Logger;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -29,14 +31,12 @@ public class InvoiceDocument {
                             if (strAmount.contains(",")) {
                                 strAmount = strAmount.replace(",", "");
                             }
-                        }else {
-                            throw new NullSummaryException("[WARING] Not found sum in document");
                         }
                     }
                     //добавить ислюченик если сумма не указана
                     amount = amount + Double.parseDouble(strAmount);
                 } catch (IOException e) {
-                    throw new RuntimeException(e);
+                    Logger.logErrorInfo(new Date(), e.getMessage(), e);
                 }
             }
         }

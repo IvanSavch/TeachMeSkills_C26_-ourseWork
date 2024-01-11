@@ -16,7 +16,7 @@ public final class Session {
 
     public boolean isSessionAlive() {
 
-        if (this.accessToken.length() == 16 || this.expDate.after(new Date())) {
+        if (this.accessToken.length() == 16 && this.expDate.after(new Date())) {
             return true;
         }
         return false;
@@ -33,7 +33,7 @@ public final class Session {
     private void setExpDate() {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(new Date());
-        calendar.add(Calendar.MINUTE, 3);
+        calendar.add(Calendar.MINUTE, 1);
         this.expDate = calendar.getTime();
     }
 

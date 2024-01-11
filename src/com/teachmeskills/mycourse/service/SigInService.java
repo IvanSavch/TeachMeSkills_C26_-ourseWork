@@ -14,13 +14,13 @@ public class SigInService {
         Logger.logExecutionInfo(new Date(),"start sig in\n");
 
         try {
-            CredValidate.loginValidation(Coder.deCoder(login));
-            CredValidate.passwordValidation(Coder.deCoder(password));
+            CredValidate.loginValidation(login);
+            CredValidate.passwordValidation(password);
 
             Logger.logExecutionInfo(new Date(),"success sig in\n" );
 
         } catch (CheckLoginException | CheckPasswordException e) {
-            Logger.LogErrorInfo(new Date(), e.getMessage(), e);
+            Logger.logErrorInfo(new Date(), e.getMessage(), e);
         }
 
         Logger.logExecutionInfo(new Date(),"end sig in\n");
