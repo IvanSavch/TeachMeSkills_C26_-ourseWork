@@ -18,6 +18,7 @@ public class CredValidate {
         if (!password.equals(Coder.deCoder(storageMok.getPassword()))){
             throw new CheckPasswordException("wrong password or login");
         }
+
     }
     public static void loginValidation(String login)throws CheckLoginException {
         StorageMok storageMok = new StorageMok();

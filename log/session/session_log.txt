@@ -1,2 +1,2 @@
 
-Fri Jan 12 13:47:24 MSK 2024 -> [INFO] session start
+Fri Jan 12 23:59:04 MSK 2024 -> [ERROR] session is null
