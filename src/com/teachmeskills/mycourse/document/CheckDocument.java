@@ -1,6 +1,5 @@
 package com.teachmeskills.mycourse.document;
 
-import com.teachmeskills.mycourse.exception.NullSummaryException;
 import com.teachmeskills.mycourse.logger.Logger;
 
 import java.io.BufferedReader;
@@ -13,7 +12,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CheckDocument {
-    public static double statsCheck(List<File> files) throws NullSummaryException {
+    public static double statsCheck(List<File> files)  {
         double amount = 0;
         String strAmount = "";
         for (File file : files) {

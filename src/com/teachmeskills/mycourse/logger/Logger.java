@@ -10,6 +10,7 @@ public class Logger {
     private static final String Log_EXECUTION_Info = "C:\\Users\\Savva\\IdeaProjects\\TeachMeSkills_C26_CourseWork\\log\\log_execution\\execution_log.txt";
     private static final String LOG_ERROR_INFO = "C:\\Users\\Savva\\IdeaProjects\\TeachMeSkills_C26_CourseWork\\log\\log_error\\error_log.txt";
     private static final String LOG_INVALID_DOCUMENT = "C:\\Users\\Savva\\IdeaProjects\\TeachMeSkills_C26_CourseWork\\log\\invalid_documents\\invalid_document.txt";
+    private static final String LOG_SESSION_INFO = "C:\\Users\\Savva\\IdeaProjects\\TeachMeSkills_C26_CourseWork\\log\\session\\session_log.txt";
 
     public static void logExecutionInfo(Date date, String message) {
         try {
@@ -39,6 +40,14 @@ public class Logger {
         try {
             String mes = date + " -> " + message + " -> " + fileName +"\n";
             Files.write(Paths.get(LOG_INVALID_DOCUMENT), mes.getBytes(), StandardOpenOption.APPEND);
+        } catch (IOException e) {
+
+        }
+    }
+    public static void logSession(Date date,String message) {
+        try {
+            String mes = date + " -> " + message + "\n";
+            Files.write(Paths.get(LOG_SESSION_INFO), mes.getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
 
         }

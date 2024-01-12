@@ -10,22 +10,22 @@ import com.teachmeskills.mycourse.validation.CredValidate;
 import java.util.Date;
 
 public class SigInService {
-    public static Session sigIn (String login, String password) {
-        Logger.logExecutionInfo(new Date(),"start sig in\n");
-
+    public static boolean sigIn (String login, String password) {
+        Logger.logExecutionInfo(new Date(),"start sig in");
+        boolean isSigIn = false;
         try {
             CredValidate.loginValidation(login);
             CredValidate.passwordValidation(password);
 
-            Logger.logExecutionInfo(new Date(),"success sig in\n" );
-
+            Logger.logExecutionInfo(new Date(),"success sig in" );
+            isSigIn = true;
         } catch (CheckLoginException | CheckPasswordException e) {
-            Logger.logErrorInfo(new Date(), e.getMessage(), e);
+            Logger.logExecutionInfo(new Date(),e.getMessage());
         }
 
-        Logger.logExecutionInfo(new Date(),"end sig in\n");
+        Logger.logExecutionInfo(new Date(),"end sig in");
 
-        return new Session();
+        return isSigIn;
     }
 
 }
