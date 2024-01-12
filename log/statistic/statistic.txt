@@ -1,0 +1,5 @@
+
+Fri Jan 12 13:47:24 MSK 2024 -> total turnover:  -> 1989470.35
+Fri Jan 12 13:47:24 MSK 2024 -> total turnover by invoice:  -> 7775.0
+Fri Jan 12 13:47:24 MSK 2024 -> total turnover by order:  -> 17801.35
+Fri Jan 12 13:47:24 MSK 2024 -> total turnover by check:  -> 1963894.0
