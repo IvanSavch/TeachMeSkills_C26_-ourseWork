@@ -16,9 +16,7 @@ public class SigInService {
             CredValidate.loginValidation(login);
             CredValidate.passwordValidation(password);
 
-
             Logger.logExecutionInfo(new Date(),"success sig in" );
-
 
         } catch (CheckLoginException | CheckPasswordException e) {
             Logger.logExecutionInfo(new Date(),e.getMessage());

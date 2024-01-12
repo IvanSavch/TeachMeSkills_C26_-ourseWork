@@ -32,7 +32,6 @@ public class OrderDocument {
                             }
                         }
                     }
-                    //добавить ислюченик если сумма не указана
                     amount = amount + Double.parseDouble(strAmount);
                 } catch (IOException e) {
                     Logger.logErrorInfo(new Date(), e.getMessage(), e);
