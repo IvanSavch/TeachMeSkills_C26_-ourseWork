@@ -1,0 +1,5 @@
+
+Mon Jan 15 20:52:47 MSK 2024->total turnover by invoice: ->8912.13$
+Mon Jan 15 20:52:47 MSK 2024->total turnover by order: ->2816.35$
+Mon Jan 15 20:52:47 MSK 2024->total turnover by bill: ->21615.79$
+Mon Jan 15 20:52:47 MSK 2024->total turnover: ->33344.27$
