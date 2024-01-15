@@ -16,11 +16,9 @@ import java.util.Date;
 import java.util.List;
 
 public class FileParser {
-    public static List<File> fileParse(File file, Session session) throws NullPointerException, CheckNullSession {
-        if (session != null) {
-            Logger.logSession(new Date(), "[INFO] session start");
-            if (session.isSessionAlive()) {
-                // Получаем список файлов из заданной директории
+    public static List<File> fileParse(File file) throws NullPointerException, CheckNullSession {
+
+
                 File[] files = file.listFiles();
                 if (files != null) {
                     // Создаем список для хранения валидных файлов
@@ -61,12 +59,5 @@ public class FileParser {
                 } else {
                     throw new NullPointerException("[ERROR] Invalid path");
                 }
-            } else {
-                Logger.logSession(new Date(), "[WRING] Session end");
-            }
-        } else {
-            throw new CheckNullSession("[ERROR] session is null");
-        }
-        return null;
     }
 }

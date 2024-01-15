@@ -27,9 +27,7 @@ public class Runner {
         System.out.println("Enter path");
         String path = scanner.nextLine();
         try {
-            Statistic.stats(FileParser.fileParse(new File(path), session));
-        } catch (NullFileException e) {
-            Logger.logExecutionInfo(new Date(), e.getMessage());
+            Statistic.startStatistic(session,FileParser.fileParse(new File(path)));
         } catch (CheckNullSession e) {
             Logger.logSession(new Date(), e.getMessage());
         } catch (NullPointerException e) {
