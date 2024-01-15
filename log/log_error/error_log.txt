@@ -1,2 +1,14 @@
 
 
+Mon Jan 15 16:54:52 MSK 2024 -> [ERROR] Invalid path
+com.teachmeskills.mycourse.service.pars_document.FileParser.fileParse(FileParser.java:60)
+com.teachmeskills.mycourse.Runner.main(Runner.java:31)
+Mon Jan 15 16:59:45 MSK 2024 -> [ERROR] Invalid path
+com.teachmeskills.mycourse.service.pars_document.FileParser.fileParse(FileParser.java:60)
+com.teachmeskills.mycourse.Runner.main(Runner.java:31)
+Mon Jan 15 16:59:59 MSK 2024 -> [ERROR] Invalid path
+com.teachmeskills.mycourse.service.pars_document.FileParser.fileParse(FileParser.java:60)
+com.teachmeskills.mycourse.Runner.main(Runner.java:31)
+Mon Jan 15 17:03:37 MSK 2024 -> [ERROR] Invalid path
+com.teachmeskills.mycourse.service.pars_document.FileParser.fileParse(FileParser.java:60)
+com.teachmeskills.mycourse.Runner.main(Runner.java:31)
